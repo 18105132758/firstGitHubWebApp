@@ -5,6 +5,9 @@ import org.junit.Test;
 import java.io.File;
 import java.io.IOException;
 
+/**
+ * 路径相关测试代码
+ */
 public class TestSourcePath {
 
     @Test
