@@ -96,11 +96,20 @@
             <artifactId>ojdbc</artifactId>
             <version>1.6</version>
         </dependency>
-
+        <!--junit-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+        </dependency>
+
+        <!--Servlet, 如果不引用，spring视图解析器会报错
+            java.lang.NoClassDefFoundError: javax/servlet/jsp/jstl/core/Config
+        -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
         </dependency>
     </dependencies>
 </project>
